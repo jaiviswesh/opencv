@@ -1,6 +1,6 @@
 import cv2
 
-alg = "C:/Users/Administrator/Pictures/face detection/haarcascade_frontalface_default.xml" #used haarcascade model
+alg = "C:/Users/jaine/Videos/OpenCV-face-detection-with-haarcascade_frontface_default.xml/haarcascade_frontalface_default.xml" #used haarcascade model
 haar_cascade = cv2.CascadeClassifier(alg) #loading the model
 
 cam = cv2.VideoCapture(0) #initializing the camera
